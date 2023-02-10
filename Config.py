@@ -3,7 +3,7 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "2132402"))
     API_HASH = os.environ.get("API_HASH", "d8ae5b42da814105c8433a4a02767f6f")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6187618587:AAFS1XR0AAqHPnqL486RWQOBwOkByK8KY4k")
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
